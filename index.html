@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/15116d9e2a.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      html{
+        scroll-behavior: smooth;
+      }
+      .foto-perfil {
+        height: 100%;
+        width: auto;
+        max-width: 100%;
+        border-radius: 50%;
+      }
+      .corPrimaria{
+        background-color: #e1d6f6 ;
+      }
+      .corSecundaria {
+        background-color: #c7b1f0;
+      }
+      p {
+        font-family: Arial, Helvetica, sans-serif;
+        color: black !important;
+      }
+      .icones {
+        padding-left: 5px;
+      }
+      .titulosBrancos {
+        text-decoration: underline;
+        text-underline-position: below;
+        padding-bottom: 20px;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: white;
+      }
+      .titulosVerdes {
+        text-decoration: underline;
+        text-underline-position: below;
+        padding-bottom: 20px;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: #625777 ;
+      }
+      .textoBranco{
+        color: white !important;
+      }
+      .textoPreto{
+        color: black !important;
+      }
+      .jumbotron{
+        margin-bottom: 0px;
+      }
+
+     .footer{
+      margin: 0px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+    </style>
+  </head>
+  <body>
+    <nav class="corSecundaria navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand textoBranco" href="#">Carla Cezario</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto"></ul>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link textoBranco" href="#Educação">Educação</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link textoBranco" href="#sobre-mim">Sobre mim</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link textoBranco" href="#interesses">Interesses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link textoBranco" href="#contato">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section class="jumbotron text-center corPrimaria">
+      <div class="container">
+        <img
+          class="foto-perfil"
+          src="https://media-exp1.licdn.com/dms/image/C4D03AQEQwKBUEJlkfg/profile-displayphoto-shrink_800_800/0/1661181730322?e=1668038400&v=beta&t=iM6pKbIRPYjH4QWjMmSmPnGNJkT3FYZdLboVfhfWN-0"
+          alt=""
+        />
+        <h1>Carla Cezario</h1>
+        <p class="lead text-muted">
+          Desenvolvedora Front-End - Graduanda em Engenharia da Computação.
+        </p>
+        <p>
+          <a href="#contato" class="btn btn-dark my-2">Contato</a>
+        </p>
+        <a href="https://www.linkedin.com/in/carla-cezario-465402218/"
+          ><i class="icones fab fa-linkedin textoPreto"></i
+        ></a>
+        <a href="https://www.instagram.com/carlacdacruz/"
+          ><i class="icones fab fa-instagram textoPreto"></i
+        ></a>
+      </div>
+    </section>
+    <div class="album py-5 bg-light" id="Educação">
+      <div class="container">
+        <h2 class="jumbotron-heading text-center titulosVerdes">Educação</h2>
+        <div class="row">
+           <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img src="https://www.institutoalgar.org.br/wp-content/uploads/2019/09/LOGOTIPO-_-Talentos-de-Futuro-1024x638.png"
+                class="bd-placeholder-img card-img-top"
+                width="100%"
+                height="205"
+                xmlns="http://www.w3.org/2000/svg"
+                preserveAspectRatio="xMidYMid slice"
+                focusable="false"
+                role="img"
+                aria-label="Placeholder: Thumbnail"
+              >
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c"></rect>
+                <text x="20%" y="50%" fill="#eceeef" dy=".3em">Talentos do futuro (Algar):  Alura Include</text>
+              </svg>
+              <div class="card-body"></p>
+                <ul>
+                  <li>JavaScript</li>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                </ul>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="https://www.institutoalgar.org.br/programas/talentos-de-futuro/"><button
+                      type="button"
+                      class="btn btn-sm btn-outline-success"
+                    >
+                      Sobre o Projeto
+                    </button></a>
+                   
+                    
+                    </button>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img src="data:image/jpeg;base64,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"
+                class="bd-placeholder-img card-img-top"
+                width="200%"
+                height="205"
+                xmlns="http://www.w3.org/2000/svg"
+                preserveAspectRatio="xMidYMid slice"
+                focusable="false"
+                role="img"
+                aria-label="Placeholder: Thumbnail"
+              >
+                <title>Placeholder</title>
+                <rect width="50%" height="50%" fill="#55595c"></rect>
+                <text x="20%" y="50%" fill="#eceeef" dy=".3em">Engenharia da Computação</text>
+              </svg>
+              <div class="card-body"></p>
+                <ul>
+                  <li>Faculdade Pitágoras</li>
+                </ul>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="https://www.pitagoras.com.br/institucional/nossa-historia/"><button
+                      type="button"
+                      class="btn btn-sm btn-outline-success"
+                    >
+                      Sobre a Instituição
+                    </button></a>
+                   
+                    
+                    </button>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img src="data:image/jpeg;base64,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uFyjEFgcg+IEx6Xsxpqw6orBXpXTldxx3a78Y8d3zjc8xcaoHMr7YEjUfNJY1NQtHcWm5WBYqVzsUggjJwDy+E9/+u958jbKnvdQU+Yv3ryqdvnMoCea80wMHBzNzT9mURg63XhhWKt29SditlAPVwMdOnPJzmftHZehGVsuzi43lyy5aw1lMsFAGNp6ACLiCN8J7XtVpKUYd7b3T3ObLShKi11VEJDF7DtOByHLrN9+1Oyy9lSywb9Iiq1gA+eQEbFK+oeYyCTk+InTp7LVVivuntqatGQWI67ijOWKvuUqw3EkcsiZLezNLO7sXLO9FjEsObUY7s9PLn7fKS3G+Ac/Udqbk+UfzZT8kRX1GLemVL7avU+cIQAnO0ZOJ0+LcbWrTV3ohsNprWtM7dzWEbMnntHPJOD0mPiPZqm57XLWJ3yqlyIwVbVUYAbIJHI4ypBI5Tc4nwiq+kUsCqqVKFDtKFCChQ+BGJW1oEWXtHZp9Tq++A3GzT111m092jPUxJ3lfVTClidufKSTgvGPlFD2bNpRnRgG3AlfFGwNykEEHA6zVPZSg94S9pZ3rc2F/XFlYIR1bHI8z5c8YxynW0WlNalTY9hJzucqT0HL1QABy9kNp8Aj3ZpLdXp6tXZqbVaw94K0KKiLuO2vbtO7kMEk569Jm0vajemlbusfKLracb87dne+t0557rpy6zY03ZxKmPdXXVoWL90jrsyTkgblLKCfAECY9N2UoSytw9vzdj21qXyqM+7cAMdCXJ58/OLTbBoL2us+SpqjpgtbsqqWtOFyzh3sKoSlY2j1sEknoOp3H7Q2M6VU1V22d13zkXfNhNxVQlgQl2Yg49UDlzm9TwRa9OmnrtsrVM4ZShYgkkhtylSPW9k06+yVCKgqayoqjVb63AZkZyzK+4EH1iTkAEZOMSbiDU0/bIWWadUrVFurSwNdYa8lnKtVXhWD2LtORkeHtkukfv7L0vXXSWsFCBAKQy7TsIKkkrvzkc8MM+MkEh17ARESoEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQD//2Q=="
+                class="bd-placeholder-img card-img-top"
+                width="200%"
+                height="205"
+                xmlns="http://www.w3.org/2000/svg"
+                preserveAspectRatio="xMidYMid slice"
+                focusable="false"
+                role="img"
+                aria-label="Placeholder: Thumbnail"
+              >
+                <title>Placeholder</title>
+                <rect width="50%" height="50%" fill="#030303 text-center"></rect>
+                <text x="20%" y="50%" fill="#030303" dy=".3em">Técnico em Manutenção e Restauração de Hardwares</text>
+              </svg>
+              <div class="card-body"></p>
+                <ul>
+                  <li>CEBRAC</li>
+                </ul>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="https://www.cebrac.com.br/empresa"><button
+                      type="button"
+                      class="btn btn-sm btn-outline-success"
+                    >
+                      Sobre a Instituição
+                    </button></a>
+                   
+                    
+                    </button>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Sobre Mim-->
+    <section class="jumbotron text-center corPrimaria" id="sobre-mim">
+      <div class="container">
+        <h2 class="jumbotron-HEADING">Sobre mim</h2>
+        <p class="lead"></p>
+        Olá, meu nome é Carla, tenho 22 anos, nasci em São Paulo-SP. Atualmente sou graduanda em engenharia da Computação.Apaixonada por desenvolvimento em Front-End. Tenho experiência com Backup, Restauração e Manutenção de Hardwares.
+      </div>
+    </section>
+    <!--Experiências-->
+    <section class="jumbotron text-center textoPreto" id="interesses">
+      <div class="container">
+        <h2 class="jumbotron-HEADING ">Interesses</h2><img width="50%" height="50%"src="https://t4.ftcdn.net/jpg/05/26/84/51/360_F_526845142_2HDezW65o5jJqyvfpOj4AGQCd8A9GXfu.jpg" alt="">
+        <p class="lead"></p>
+      </div>
+    </section>
+    <!-- Contato-->
+    <section class="corPrimaria" id="contato">
+      <div>
+        <div class="container-fluid">
+          <h3 style="padding: top 60px;" class="text-center ">Disponível para Oportunidades</h3>
+          <p>
+
+          </p>
+         <a href="mailto:carla.cezario16@gmail.com"><h4 
+            style="padding-bottom: 60px;margin-bottom: 0px;"
+            class="text-center">📧 carla.cezario16@gmail.com 📧</h4></a>
+          <a href="https://api.whatsapp.com/send?phone=034998662891"><h4 
+            style="padding-bottom: 60px;margin-bottom: 0px;"
+            class="text-center">📱 Whatsapp 📱</h4></a>
+        </div>
+      </div>
+    </section>
+    <!--Footer-->
+    <footer class="text-center corSecundaria footer">
+      <p class="textoPreto">Copyright 2022 Carla Cruz</p>
+    </footer>
+  </body>
+</html>
